@@ -1,5 +1,5 @@
 <script setup>
-import { useCardFlipLogic } from '../composables/CardFlip.composable';
+import { useCardFlipLogic } from '../../composables/CardFlip/CardFlip.composable';
 
 const {
     board,

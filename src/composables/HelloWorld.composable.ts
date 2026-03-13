@@ -7,21 +7,21 @@ export const useHelloWorldLogic = () => {
   const navigationItems = [
     {
       id: 1,
-      title: 'カードめくり',
-      thumbnail: '/assets/home-content/thumbnail-card-flip.png',
-      path: APP_PATH.CARD_FLIP
-    },
-    {
-      id: 2,
       title: 'コンポーネントショーケース',
       thumbnail: '/assets/home-content/thumbnail-component-showcase.jpg',
       path: APP_PATH.COMPONENT_SHOWCASE
     },
     {
+      id: 2,
+      title: 'カードめくり',
+      thumbnail: '/assets/home-content/thumbnail-card-flip.png',
+      path: APP_PATH.CARD_FLIP
+    },
+    {
       id: 3,
       title: '開発中',
-      thumbnail: '/assets/home-content/now-loading.jpeg',
-      path: APP_PATH.ERROR
+      thumbnail: '/assets/home-content/blue-archive-achievement-list.png',
+      path: APP_PATH.BA_TRAIN
     },
     {
       id: 4,

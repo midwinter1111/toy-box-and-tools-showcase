@@ -1,9 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HelloWorld from '../views/HelloWorld.vue'
 import ErrorPage from '../views/ErrorPage.vue'
-import ComponentShowcase from '@/views/ComponentShowcase.vue'
-import CardFlip from '@/views/CardFlip.vue'
+import ComponentShowcase from '@/views/ComponentShowcase/ComponentShowcase.vue'
+import CardFlip from '@/views/CardFlip/CardFlip.vue'
 import SamplePage from '@/views/SamplePage.vue'
+import BlueArchiveTrainingList from '@/views/BlueArchiveTrainingList/BlueArchiveTrainingList.vue'
 
 /**
  * アプリケーション内のパス定義
@@ -14,6 +15,7 @@ export const APP_PATH = {
   SAMPLE: '/sample',
   CARD_FLIP: '/card-flip',
   COMPONENT_SHOWCASE: '/component-showcase',
+  BA_TRAIN: '/ba-train',
   ERROR: '/error',
 } as const
 
@@ -39,6 +41,11 @@ const router = createRouter({
       path: APP_PATH.COMPONENT_SHOWCASE,
       name: 'component-showcase',
       component: ComponentShowcase
+    },
+    {
+      path: APP_PATH.BA_TRAIN,
+      name: 'blue-archive-training-list',
+      component: BlueArchiveTrainingList
     },
     {
       path: APP_PATH.ERROR,
