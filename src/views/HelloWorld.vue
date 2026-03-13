@@ -1,6 +1,10 @@
 <template>
   <div class="dashboard">
-    <h1>ツール選択</h1>
+    <h1 class="mb-20">おもちゃばこ</h1>
+
+    <div> Vue 3 をベースとした実装のお試しで作成したおもちゃやツール群をまとめたおもちゃばこです。
+       <br/>
+       Vite, Tailwind CSS v4, Storybook, Vitest などの技術スタックを利用しています。</div>
     <div class="card-grid">
       <div
         v-for="item in navigationItems"
