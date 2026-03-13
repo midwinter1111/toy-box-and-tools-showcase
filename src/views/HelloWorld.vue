@@ -1,15 +1,8 @@
 <script setup lang="ts">
-import { useRouter } from 'vue-router'
+import { useHelloWorldLogic } from '../composables/HelloWorld.composable'
 
-const router = useRouter()
+const { navigateToSample } = useHelloWorldLogic()
 
-/**
- * サンプルページへ遷移する
- */
-const navigateToSample = () => {
-  // 遷移前に何か処理を入れることも可能
-  router.push({ name: 'sample' })
-}
 </script>
 
 <template>
