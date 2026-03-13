@@ -6,9 +6,9 @@ const COLS = 9;
 
 // アイテムの定義（アセット画像に合わせて修正）
 const ITEM_TYPES = [
-  { id: 'item-lg', name: 'ノート', width: 3, height: 2, image: '2x3note.png' },
-  { id: 'item-md', name: '銃', width: 3, height: 1, image: '1x3weapon.png' },
-  { id: 'item-sm', name: 'アイテム', width: 2, height: 1, image: '1x2item.png' },
+  { id: 'item-lg', name: 'ノート', width: 3, height: 2, image: '../assets/card-flip/2x3note.png' },
+  { id: 'item-md', name: '銃', width: 3, height: 1, image: '../assets/card-flip/1x3weapon.png' },
+  { id: 'item-sm', name: 'アイテム', width: 2, height: 1, image: '../assets/card-flip/1x2item.png' },
 ];
 
 const board = ref([]);

@@ -8,14 +8,14 @@ export const useHelloWorldLogic = () => {
     {
       id: 1,
       title: 'カードめくり',
-      thumbnail: 'https://images.unsplash.com/photo-1606168198738-c288d076d338?w=400',
-      path: '/card-flip'
+      thumbnail: '../assets/home-content/thumbnail-card-flip.png',
+      path: APP_PATH.CARD_FLIP
     },
     {
       id: 2,
       title: 'コンポーネントショーケース',
-      thumbnail: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400',
-      path: '/showcase'
+      thumbnail: '../assets/home-content/thumbnail-component-showcase.jpg',
+      path: APP_PATH.COMPONENT_SHOWCASE
     }
   ];
 
